@@ -1,0 +1,50 @@
+@import '~antd/es/style/themes/default.less';
+
+.delColor {
+  color: @error-color;
+}
+
+.executeRedColor {
+  color: @primary-color;
+}
+
+// 正在执行
+.status1 {
+  color: @primary-color;
+}
+
+// 执行成功
+.status2 {
+  color: @success-color;
+}
+
+// 执行失败
+.status3 {
+  color: @error-color;
+}
+
+// 执行中断
+.status4 {
+  color: @warning-color;
+}
+
+.textWordWrap {
+  word-wrap: break-word;
+}
+
+.container {
+  height: 100%;
+}
+.mirrorHeight {
+  height: 600px;
+  :global {
+    .CodeMirror {
+      height: 100%;
+    }
+  }
+}
+
+.iconFontSize {
+  font-size: 20px;
+  cursor: pointer;
+}

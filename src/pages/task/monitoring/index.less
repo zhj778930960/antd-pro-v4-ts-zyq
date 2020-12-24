@@ -1,0 +1,26 @@
+@import '~antd/es/style/themes/default.less';
+
+.delColor {
+  color: @error-color;
+}
+
+.executeRedColor {
+  color: @processing-color;
+}
+
+.hoverIcon {
+  padding: 0 5px;
+  &:hover {
+    color: @primary-color;
+    cursor: pointer;
+  }
+}
+
+.webHookUrl {
+  :global{
+    .ant-form-item-control-input-content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
